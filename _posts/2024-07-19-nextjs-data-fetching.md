@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: single
 title: "Next JS: Data Fetching"
 categories:
   - dev 
