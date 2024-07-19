@@ -81,9 +81,7 @@ getStaticProps does not have access to the incoming request (such as query param
 The following example shows how you can fetch a list of blog posts from a CMS.
 
 pages/blog.tsx
-``` TypeScript
-
-
+``` typescript
 // posts will be populated at build time by getStaticProps()
 export default function Blog({ posts }) {
   return (
@@ -125,7 +123,7 @@ This means that instead of fetching an API route from getStaticProps (that itsel
 Take the following example. An API route is used to fetch some data from a CMS. That API route is then called directly from getStaticProps. This produces an additional call, reducing performance. Instead, the logic for fetching the data from the CMS can be shared by using a lib/ directory. Then it can be shared with getStaticProps.
 
 lib/load-posts.js
-``` TypeScript
+``` typescript
 // The following function is shared
 // with getStaticProps and API routes
 // from a `lib/` directory
@@ -139,7 +137,7 @@ export async function loadPosts() {
 ```
 
 pages/blog.js
-``` TypeScript
+``` typescript
 // pages/blog.js
 import { loadPosts } from '../lib/load-posts'
  
