@@ -14,7 +14,7 @@ toc_icon: "cog"
 # classes: wide
 
 sidebar:
-  title: "Sample Title"
+  title: "Next JS: getStaticProps"
   nav: sidebar-sample
 
 
