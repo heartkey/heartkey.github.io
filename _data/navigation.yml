@@ -22,10 +22,10 @@ main:
 sidebar-sample:
   - title: "Parent Page A"
     children:
-      - title: "Child Page A1"
-        url: /
-      - title: "Child Page A2"
-        url: /
+      - title: "Next JS: getStaticProps"
+        url: /2024-07-19-nextjs-get-static-props/
+      - title: "Next JS: Data Fetching"
+        url: /2024-07-19-nextjs-data-fetching/
       - title: "Child Page A3"
         url: /
       - title: "Child Page A4"
