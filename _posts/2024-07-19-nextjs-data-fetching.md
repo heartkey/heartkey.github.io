@@ -16,6 +16,7 @@ toc_icon: "cog"
 sidebar:
   title: "Next JS: Data Fetching"
   nav: sidebar-sample
+  text: "Designer, Front-End Developer 1"
 
 date: 2024-07-10 13:22:15
 last_modified_at : 2024-07-11 14:34:44
@@ -25,6 +26,10 @@ last_modified_at : 2024-07-11 14:34:44
 
 Data fetching in Next.js allows you to render your content in different ways, depending on your application's use case. 
 These include pre-rendering with Server-side Rendering or Static Generation, and updating or creating content at runtime with Incremental Static Regeneration.
+
+
+https://heartkey.github.io/2024-07-19-nextjs-get-static-props/
+https://heartkey.github.io/dev/front-end/nextjs-get-static-props/
 
 # Heading 1
 ## Heading 1-1

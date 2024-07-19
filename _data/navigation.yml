@@ -23,6 +23,7 @@ sidebar-sample:
   - title: "Parent Page A"
     children:
       - title: "Next JS: getStaticProps"
+        text: "Designer, Front-End Developer"
         url: /2024-07-19-nextjs-get-static-props/
       - title: "Next JS: Data Fetching"
         url: /2024-07-19-nextjs-data-fetching/
