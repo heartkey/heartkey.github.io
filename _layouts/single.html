@@ -65,7 +65,8 @@ layout: default
 
       {% include post_pagination.html %}
     </div>
-
+    <h1>site.comments.provider={{site.comments.provider}}</h1>
+    <h1>page.comments={{page.comments}}</h1>
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
