@@ -1,6 +1,7 @@
 <div class="page__comments">
   <h1>===== comments.html</h1>
   {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
+  <h1>site.comments.provider={{site.comments.provider}}</h1>
   {% case site.comments.provider %}
     {% when "discourse" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
@@ -170,6 +171,8 @@
         {% endif %}
       </section>
     {% when "utterances" %}
+      <h1>==== utterances</h1>
+      <h1>==== {{ comments_label }}</h1>
       <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section id="utterances-comments"></section>
     {% when "giscus" %}
