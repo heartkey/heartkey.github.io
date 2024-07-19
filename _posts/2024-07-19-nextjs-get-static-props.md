@@ -13,11 +13,6 @@ toc_sticky: true
 toc_icon: "cog"
 # classes: wide
 
-sidebar:
-  title: "Next JS: getStaticProps"
-  nav: sidebar-sample
-
-
 # date: 2024-07-19 13:22:15
 # last_modified_at : 2024-07-11 14:34:44
 ---

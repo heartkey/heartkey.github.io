@@ -24,9 +24,9 @@ sidebar-sample:
     children:
       - title: "Next JS: getStaticProps"
         text: "Designer, Front-End Developer"
-        url: /2024-07-19-nextjs-get-static-props/
+        url: /dev/front-end/2024-07-19-nextjs-get-static-props/
       - title: "Next JS: Data Fetching"
-        url: /2024-07-19-nextjs-data-fetching/
+        url: /dev/front-end/2024-07-19-nextjs-data-fetching/
       - title: "Child Page A3"
         url: /
       - title: "Child Page A4"
