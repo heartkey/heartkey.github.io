@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Next JS: Data Fetching"
+title: "Next JS: getStaticProps"
 writer: CCBB
 categories:
   - dev 
