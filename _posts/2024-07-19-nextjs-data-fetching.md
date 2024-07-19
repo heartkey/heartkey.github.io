@@ -16,15 +16,15 @@ toc_icon: "cog"
 Data fetching in Next.js allows you to render your content in different ways, depending on your application's use case. 
 These include pre-rendering with Server-side Rendering or Static Generation, and updating or creating content at runtime with Incremental Static Regeneration.
 
-# Heading
-## Heading
-### Heading
-### Heading
-# Heading
-## Heading
+# Heading 1
+## Heading 1-1
+### Heading 1-1-1
+### Heading 1-1-2
+# Heading 2
+## Heading 2-1
 
 Bad headings:
 
-# Heading
-### Heading (skipped H2)
-##### Heading (skipped H4)
+# Heading 3
+### Heading 3-2(skipped H2)
+##### Heading 3-2-1(skipped H4)
