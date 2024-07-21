@@ -11,8 +11,6 @@ main:
   - title: "External Link"
     url: https://google.com
     target: _blank
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Sample Posts"
     url: /year-archive/
   - title: "Sample Collections"
