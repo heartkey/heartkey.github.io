@@ -9,7 +9,7 @@ toc: true
 toc_label: "My Table of Contents"
 toc_sticky: true
 toc_icon: "cog"
-permalink: /about
+permalink: /about/
 # classes: wide
 
 # date: 2024-07-19 13:22:15
