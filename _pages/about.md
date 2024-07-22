@@ -17,6 +17,12 @@ toc_icon: "cog"
 # last_modified_at : 2024-07-11 14:34:44
 ---
 
+## Notable Features
+
+- Bundled as a "theme gem" for easier install/upgrading.
+- Compatible with GitHub Pages.
+- Support for Jekyll's built-in Sass/SCSS preprocessor.
+
 ## Demo Pages
 
 | Name                                        | Description                                           |
@@ -39,5 +45,3 @@ For even more demo pages check the [posts archive][year-archive].
 [categories-archive]: {{ "/categories/" | relative_url }}
 [tags-archive]: {{ "/tags/" | relative_url }}
 [year-archive]: {{ "/year-archive/" | relative_url }}
-
----
