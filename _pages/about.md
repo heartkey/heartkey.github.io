@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-layout: single
+# layout: single
 title: "About"
 writer: CCBB
 categories:
@@ -10,6 +10,15 @@ toc: true
 toc_label: "My Table of Contents"
 toc_sticky: true
 toc_icon: "cog"
+
+sidebar:
+  - title: "Title"
+    image: "/assets/images/dc_logo.png"
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+    nav: "about"
 
 # classes: wide
 

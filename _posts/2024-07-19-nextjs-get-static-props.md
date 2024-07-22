@@ -1,5 +1,9 @@
 ---
 layout: single
+# layout: splash
+# layout: post
+# layout: home
+# layout: collection
 title: "Next JS: getStaticProps"
 writer: CCBB
 categories:
@@ -12,7 +16,19 @@ toc_label: "My Table of Contents"
 toc_sticky: true
 toc_icon: "cog"
 # classes: wide
-
+header:
+  teaser: /assets/images/dc_logo.png
+excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
+header:
+  overlay_image: /assets/images/dc_logo.png
+  # overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  
+  # overlay_color: "#333"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "More Info"
+      url: "https://unsplash.com"
 # date: 2024-07-19 13:22:15
 # last_modified_at : 2024-07-11 14:34:44
 ---

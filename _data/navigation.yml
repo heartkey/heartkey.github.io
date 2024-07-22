@@ -61,3 +61,17 @@ sidebar-sample:
         url: /
       - title: "Child Page D2"
         url: /
+
+
+
+about:
+  - title: About
+    children:
+      - title: "Quick-Start Guide 1"
+        url: /
+      - title: "Structure 1"
+        url: /
+      - title: "Installation 1"
+        url: /
+      - title: "Upgrading 1"
+        url: /
