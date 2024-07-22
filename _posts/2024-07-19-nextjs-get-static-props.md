@@ -16,11 +16,11 @@ toc_label: "My Table of Contents"
 toc_sticky: true
 toc_icon: "cog"
 # classes: wide
-header:
-  teaser: /assets/images/dc_logo.png
+
 excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
 header:
-  overlay_image: /assets/images/dc_logo.png
+  teaser: /assets/images/unsplash-gallery-image-1.jpg
+  overlay_image: /assets/images/unsplash-gallery-image-1.jpg
   # overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
   
@@ -61,8 +61,27 @@ export default function Page({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return repo.stargazers_count
 }
-
 ```
+
+공지입니다.
+알아두시길 바랍니다.
+{: .notice--info}
+
+Left aligned text
+{: .text-left}
+
+Right aligned text.
+{: .text-right}
+
+[Text](#link){: .btn .btn--danger}
+
+공지 다음 줄 입니다.
+
+![image-center](/assets/images/dc_logo.png){: .align-center}
+
+![image-center](/assets/images/dc_logo.png){: .align-right}
+
+
 Note that irrespective of rendering type, any props will be passed to the page component and can be viewed on the client-side in the initial HTML. 
 This is to allow the page to be hydrated correctly. Make sure that you don't pass any sensitive information that shouldn't be available on the client in props.
 
