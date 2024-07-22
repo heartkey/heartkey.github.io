@@ -20,8 +20,8 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "CCBB Note"
 title_separator          : "-"
 subtitle                 : Dev, Life # site tagline that appears below site title in masthead
-name                     : "CCBB"
-description              : "Note About All."
+name                     : &name "CCBB"
+description              : &description "Note About All."
 url                      : "https://heartkey.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "heartkey/heartkey.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
