@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /path-to-exclude/
+Allow: /
+Sitemap: https://heartkey.github.io/sitemap.xml
