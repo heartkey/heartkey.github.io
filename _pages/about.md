@@ -26,9 +26,6 @@ tags:
 # last_modified_at : 2024-07-11 14:34:44
 ---
 
-## About
-
-
 ![profile](/assets/images/350x250.png)
 * Work for IT Compay
 * Like
