@@ -26,7 +26,7 @@ tags:
 # last_modified_at : 2024-07-11 14:34:44
 ---
 
-![profile](/assets/images/bio-photo.jpg)
+![profile](/assets/images/bio-photo-01.png)
 * Work for IT Compay
 * Like
   * Exercise
