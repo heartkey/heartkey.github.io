@@ -43,6 +43,8 @@ header:
 ### 1. React 18 지원 및 서버 컴포넌트
 Next.js 14는 React 18의 새로운 기능들을 지원합니다. 특히 서버 컴포넌트를 활용한 스트리밍과 점진적 서버 렌더링(SSR)을 통해 성능을 최적화할 수 있습니다.
 
+Using the Kramdown Markdown renderer with Jekyll allows you to add block and inline attributes. This is nice if you want to add custom styling to text and image, and still write in Markdown.
+
 * 서버 컴포넌트: 서버에서 렌더링되며 클라이언트에 전달되는 컴포넌트로, 초기 로딩 성능을 향상시키고 클라이언트 측 JavaScript 번들을 줄일 수 있습니다.
 ### 2. 안정화된 앱 디렉터리(App Directory)
 Next.js 14에서는 app/ 디렉토리가 안정화되어, 새로운 파일 기반 라우팅 시스템을 활용할 수 있습니다. 이는 pages/ 디렉토리와 별개로 동작하며, 더 유연하고 강력한 라우팅 옵션을 제공합니다.
