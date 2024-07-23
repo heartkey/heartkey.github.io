@@ -18,8 +18,9 @@ toc_icon: "cog"
 # classes: wide
 
 excerpt: "Next.js 14은 최신 웹 애플리케이션 개발을 위한 다양한 기능을 제공하며, 개발자들이 효율적으로 작업할 수 있도록 도와줍니다."
+thumnail: /assets/images/nextjs-cover.jpg
 header:
-  teaser: /assets/images/unsplash-gallery-image-1.jpg
+  teaser: /assets/images/nextjs-cover.jpg
   # overlay_image: /assets/images/unsplash-gallery-image-1.jpg
   # overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   # overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
