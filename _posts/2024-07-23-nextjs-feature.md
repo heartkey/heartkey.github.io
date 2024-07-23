@@ -17,7 +17,7 @@ toc_sticky: true
 toc_icon: "cog"
 # classes: wide
 
-excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
+excerpt: "Next.js 14은 최신 웹 애플리케이션 개발을 위한 다양한 기능을 제공하며, 개발자들이 효율적으로 작업할 수 있도록 도와줍니다."
 header:
   teaser: /assets/images/unsplash-gallery-image-1.jpg
   # overlay_image: /assets/images/unsplash-gallery-image-1.jpg
@@ -42,8 +42,6 @@ header:
 
 ### 1. React 18 지원 및 서버 컴포넌트
 Next.js 14는 React 18의 새로운 기능들을 지원합니다. 특히 서버 컴포넌트를 활용한 스트리밍과 점진적 서버 렌더링(SSR)을 통해 성능을 최적화할 수 있습니다.
-
-Using the Kramdown Markdown renderer with Jekyll allows you to add block and inline attributes. This is nice if you want to add custom styling to text and image, and still write in Markdown.
 
 * 서버 컴포넌트: 서버에서 렌더링되며 클라이언트에 전달되는 컴포넌트로, 초기 로딩 성능을 향상시키고 클라이언트 측 JavaScript 번들을 줄일 수 있습니다.
 ### 2. 안정화된 앱 디렉터리(App Directory)
@@ -170,16 +168,17 @@ Next.js는 Vercel의 에지 네트워크와의 긴밀한 통합을 통해 에지
 
 
 ### 11. Next.js 13, 14 비교 요약
-|기능	|Next.js 13	|Next.js 14|
+
+|기능|Next.js 13|Next.js 14|
 |----|-----------|----------|
-|App Directory	|도입	|안정화 및 개선
-|서버 컴포넌트	|도입	|안정화 및 성능 개선
-|React 18 |지원	|지원	지원
-|데이터 페칭	|use 훅 도입	|데이터 페칭 훅 및 기능 개선
-|이미지 최적화	|next/image 개선	|최적화 기능 추가 및 성능 개선
-|Middleware	|새로운 API 도입	|성능 및 기능 개선
-|ES Modules	|지원 시작	|지속적인 개선
-|Server Actions	|없음	|도입 및 간소화
-|TypeScript	|지원	|지원 및 향상
-|API 라우트	|기본 기능	|성능 및 기능 개선
-|에지 컴퓨팅	|제한적 지원	|강화된 지원
+|App Directory|도입|안정화 및 개선|
+|서버 컴포넌트|도입|안정화 및 성능 개선|
+|React 18|지원|지원|
+|데이터 페칭|use 훅 도입|데이터 페칭 훅 및 기능 개선|
+|이미지 최적화|next/image 개선|최적화 기능 추가 및 성능 개선|
+|Middleware|새로운 API 도입|성능 및 기능 개선|
+|ES Modules|지원 시작|지속적인 개선|
+|Server Actions|없음|도입 및 간소화|
+|TypeScript|지원|지원 및 향상|
+|API 라우트|기본 기능|성능 및 기능 개선|
+|에지 컴퓨팅|제한적 지원|강화된 지원|

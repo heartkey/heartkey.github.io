@@ -22,7 +22,7 @@ gem "minimal-mistakes-jekyll"
   gem "jekyll-gist"
   gem "jekyll-feed"
   gem "jekyll-include-cache"
-  gem 'jemoji'
+  gem 'jekyll-seo-tag'
 #
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
