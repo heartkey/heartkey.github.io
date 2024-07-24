@@ -17,8 +17,8 @@ toc_sticky: true
 toc_icon: "cog"
 # classes: wide
 
-excerpt: "Next.js 14은 최신 웹 애플리케이션 개발을 위한 다양한 기능을 제공하며, 개발자들이 효율적으로 작업할 수 있도록 도와줍니다."
-thumnail: /assets/images/nextjs-cover.jpg
+excerpt: "Next.js 14는 최신 웹 애플리케이션 개발을 위한 다양한 기능을 제공하며, 개발자들이 효율적으로 작업할 수 있도록 도와줍니다."
+# thumnail: /assets/images/nextjs-cover.jpg
 header:
   teaser: /assets/images/nextjs-cover.jpg
   # overlay_image: /assets/images/unsplash-gallery-image-1.jpg
@@ -34,12 +34,6 @@ header:
 # last_modified_at : 2024-07-11 14:34:44
 ---
 
-
-## Next.js Feature
-
-## Next.js 14은 최신 웹 애플리케이션 개발을 위한 다양한 기능을 제공하며, 개발자들이 효율적으로 작업할 수 있도록 도와줍니다.
-
-## Next.js 14의 주요 기능
 
 ### 1. React 18 지원 및 서버 컴포넌트
 Next.js 14는 React 18의 새로운 기능들을 지원합니다. 특히 서버 컴포넌트를 활용한 스트리밍과 점진적 서버 렌더링(SSR)을 통해 성능을 최적화할 수 있습니다.
