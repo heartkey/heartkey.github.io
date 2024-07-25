@@ -4,7 +4,7 @@ layout: single
 # layout: post
 # layout: home
 # layout: collection
-title: "[Github Blog] _config.yml"
+title: "[Github Blog] _config.yml 설정"
 writer: CCBB
 categories: dev
 tags: frontend jekyll config blog github.io github
@@ -14,7 +14,7 @@ toc_sticky: true
 toc_icon: "cog"
 # classes: wide
 
-excerpt: "Github Blog _config.yml 파일은 사이트 설정을 관리하는 파일입니다. 사이트의 기본 구성부터 플러그인 설정, 사이트 전역 변수까지 다양한 설정을 포함할 수 있습니다. _config.yml에서 설정 가능한 주요 항목들과 그 설명입니다."
+excerpt: "Github Blog _config.yml 설정 파일은 사이트 설정을 관리하는 파일입니다. 사이트의 기본 구성부터 플러그인 설정, 사이트 전역 변수까지 다양한 설정을 포함할 수 있습니다. _config.yml에서 설정 가능한 주요 항목들과 그 설명입니다."
 header:
   teaser: /assets/images/jekyll-logo.png
   # overlay_image: /assets/images/unsplash-gallery-image-1.jpg
