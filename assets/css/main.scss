@@ -27,8 +27,12 @@ search: false
 
 html {
   font-size: 16px; // originally 16px
+  @include breakpoint($small) {
+    font-size: 18px; // originally 18px
+  }
+
   @include breakpoint($medium) {
-      font-size: 14px; // originally 18px
+      font-size: 16px; // originally 18px
   }
 
   @include breakpoint($large) {
@@ -36,7 +40,7 @@ html {
   }
 
   @include breakpoint($x-large) {
-      font-size: 18px; // originally 22px
+      font-size: 16px; // originally 22px
   }
 }
 
