@@ -19,7 +19,7 @@ toc_icon: "cog"
 
 excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
 header:
-  teaser: /assets/images/unsplash-gallery-image-1.jpg
+  # teaser: /assets/images/unsplash-gallery-image-1.jpg
   overlay_image: /assets/images/unsplash-gallery-image-1.jpg
   # overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
