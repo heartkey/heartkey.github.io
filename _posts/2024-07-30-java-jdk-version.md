@@ -7,7 +7,7 @@ layout: single
 title: "Java JDK 각 버전별 기능 및 지원 요약"
 writer: CCBB
 categories: dev
-tags: java jdk LTS
+tags: java jdk LTS backend
 toc: true
 toc_label: "My Table of Contents"
 toc_sticky: true
