@@ -4,7 +4,7 @@ layout: single
 # layout: post
 # layout: home
 # layout: collection
-published: false
+published: true
 title: "English Phrase A1 Level Table With Meaning, Example"
 writer: CCBB
 categories: study
