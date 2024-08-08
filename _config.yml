@@ -115,8 +115,8 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  avatar           : "/assets/images/bio-photo-01.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Step On The Borderline"
   location         : "Korea"
   email            :
   links:
@@ -237,7 +237,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2

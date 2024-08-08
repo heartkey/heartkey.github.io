@@ -5,17 +5,17 @@ layout: single
 # layout: home
 # layout: collection
 published: true
-title: "English Phrase A1 Level Table With Meaning, Example"
+title: "[English Phrase] Oxford Phrase A1 Level 정리"
 writer: CCBB
 categories: study
-tags: english phrase a1 esl
+tags: english phrase a1 esl oxford
 # toc: true
 # toc_label: "My Table of Contents"
 # toc_sticky: true
 # toc_icon: "cog"
 # classes: wide
 
-excerpt: "English Phrase A1 Level List With Meaning, Example"
+excerpt: "English Phrase A1 Level 뜻, 예문 리스트 정리"
 header:
   # teaser: /assets/images/java-logo.png
   # overlay_image: /assets/images/unsplash-gallery-image-1.jpg
@@ -31,6 +31,8 @@ header:
 # last_modified_at : 2024-07-11 14:34:44
 ---
 
+#### Oxford Phrase List 중  A1 Level의 문장,영문 뜻, 예문 추가 및 정리
+[출처 : Oxford Phrase List](https://www.oxfordlearnersdictionaries.com/wordlists/oxford-phrase-list "Oxford Learner's Dictionaries"){:target="_blank"}
 
 |Phrase|Meaning|Example Sentence|
 |---|---|---|
