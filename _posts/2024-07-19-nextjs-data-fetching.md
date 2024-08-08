@@ -2,6 +2,7 @@
 layout: single
 title: "Next JS: Data Fetching"
 writer: CCBB
+published: false
 categories:
   - dev 
   - front-end

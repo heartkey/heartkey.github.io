@@ -6,6 +6,7 @@ layout: single
 # layout: collection
 title: "Next JS: getStaticProps"
 writer: CCBB
+published: false
 categories:
   - dev 
   - front-end

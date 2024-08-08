@@ -5,7 +5,7 @@ layout: single
 # layout: home
 # layout: collection
 published: true
-title: "Java JDK 각 버전별 기능 및 지원 요약"
+title: "[Java] JDK 각 버전별 기능 및 지원 요약"
 writer: CCBB
 categories: dev
 tags: java jdk LTS backend
