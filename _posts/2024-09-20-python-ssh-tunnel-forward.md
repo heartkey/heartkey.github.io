@@ -16,6 +16,21 @@ toc_icon: "cog"
 
 date: 2024-09-20 13:22:15
 last_modified_at : 2024-09-20 14:34:44
+excerpt: "SSH Tunneling 의 이해, 활용 예제 코드(DB 연결)"
+header:
+  # teaser: /assets/images/java-logo.png
+  # overlay_image: /assets/images/unsplash-gallery-image-1.jpg
+  # overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  # overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  
+  # overlay_color: "#333"
+  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  # actions:
+  #   - label: "More Info"
+  #     url: "https://unsplash.com"
+# date: 2024-07-19 13:22:15
+# last_modified_at : 2024-07-11 14:34:44
+---
 ---
 
 <!-- # Python SSH Tunneling -->
