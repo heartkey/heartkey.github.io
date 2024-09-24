@@ -33,13 +33,13 @@ header:
 ---
 ---
 
-<!-- # Python SSH Tunneling -->
+# Python SSH Tunneling란?
 
 SSH 터널링은 SSH(Secure Shell) 프로토콜을 사용하여 네트워크 연결을 암호화하여 보호하는 방법이다.  
 이를 통해 로컬 또는 원격 네트워크의 특정 포트를 다른 호스트의 포트로 안전하게 포워딩할 수 있다.  
 SSH 포트 포워딩에는 세 가지 유형이 있다: 로컬, 원격, 그리고 동적 포트 포워딩.
 
-## 로컬 포트 포워딩 (Local Port Forwarding)
+1. 로컬 포트 포워딩 (Local Port Forwarding)
 로컬 포트 포워딩은 로컬 시스템의 특정 포트를 원격 서버의 포트로 전달.  
 예를 들어, 로컬 시스템의 localhost:8080 포트를 원격 서버의 example.com:80으로 전달할 수 있다.
 
@@ -49,7 +49,7 @@ ssh -L 8080:example.com:80 user@remote_host
 이 명령어는 로컬 호스트의 8080 포트를 원격 호스트 remote_host를 통해 example.com:80으로 전달.   
 이를 통해 로컬 브라우저에서 http://localhost:8080에 접속하면 example.com:80에 접속한 것과 동일하다.  
 
-## 원격 포트 포워딩 (Remote Port Forwarding)
+2. 원격 포트 포워딩 (Remote Port Forwarding)
 원격 포트 포워딩은 원격 서버의 특정 포트를 로컬 시스템의 포트로 전달.   
 이를 통해 원격 서버의 클라이언트가 로컬 시스템의 서비스를 이용할 수 있다.
 
@@ -59,7 +59,7 @@ ssh -R 8080:localhost:80 user@remote_host
 이 명령어는 원격 호스트 remote_host의 8080 포트를 로컬 호스트의 80 포트로 전달.   
 원격 호스트에서 localhost:8080으로 접속하면 로컬 호스트의 80 포트로 연결된다.
 
-## 동적 포트 포워딩 (Dynamic Port Forwarding)
+3. 동적 포트 포워딩 (Dynamic Port Forwarding)
 동적 포트 포워딩은 SOCKS 프록시를 설정하여 클라이언트의 네트워크 트래픽을 포워딩한다.  
 이를 통해 특정 포트에 대한 프록시를 설정하고 SSH 클라이언트를 사용하여 다른 네트워크 서비스에 액세스할 수 있다.
 
@@ -79,9 +79,9 @@ SSH 포트 포워딩은 원격 자원에 대한 안전한 액세스를 제공하
 이를 통해 데이터 전송의 보안을 강화하고, 네트워크를 더욱 유연하게 사용할 수 있다.
 
 
-## Python SSH Tunneling 사용한 DB 연결
-
-### 연결 테스트를 위한 네트워크 구성
+# Python SSH Tunneling 사용한 DB 연결
+## 테스트 환경
+1. 연결 테스트를 위한 네트워크 구성
 A 서버의 인바운드는 22번 포트만 열려 있다  
 B 서버의 인바운드는 mssql db 1433 포트가 열려있다  
 A 서버는 B서버로 1433 포트 접근 가능  
@@ -89,11 +89,12 @@ C 서버는 A 서버로 SSH 22 포트만 접근 가능
 C 서버는 B 서버로 접근 불가능  
 C 서버에서 python으로  A서버 호출해서 B서버의 데이터를 가져오려면?   
 
-### 요약
+2. 요약
 이 시나리오에서는 C 서버에서 B 서버의 MSSQL 데이터베이스(1433 포트)에 접근하려고 하지만, A 서버만 22번 포트가 열려 있어 B 서버에 직접 접근할 수 없는 상황. 
 따라서, A 서버를 중간 서버로 사용하여 SSH 터널을 통해 C 서버에서 B 서버의 데이터베이스에 접근.
 
-### 해결 방법: SSH 터널링을 통한 포트 포워딩
+## 해결 방법
+1. SSH 터널링을 통한 포트 포워딩
 C 서버에서 A 서버로 SSH 연결을 설정하여 B 서버의 MSSQL 데이터베이스 포트(1433)를 포워딩.
 Python 코드로 데이터베이스에 연결하여 필요한 데이터를 추출.
 1단계: SSH 터널링 설정
@@ -146,7 +147,7 @@ with SSHTunnelForwarder(
     conn.close()
 ```
 
-### 코드 설명
+2. 코드 설명
 SSHTunnelForwarder: A 서버를 통해 B 서버로 SSH 터널을 생성.   
 이때, remote_bind_address는 B 서버의 MSSQL 포트를 의미하며, local_bind_address는 로컬에서 사용할 포트이다.  
 pyodbc를 사용한 MSSQL 데이터베이스 연결: 터널을 통해 로컬의 127.0.0.1:1433으로 접속하여 실제 B 서버의 데이터베이스에 접근한다.   
