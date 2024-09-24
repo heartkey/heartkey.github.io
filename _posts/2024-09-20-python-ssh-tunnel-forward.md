@@ -33,7 +33,7 @@ header:
 ---
 ---
 
-# Python SSH Tunneling란?
+# Python SSH Tunneling이란?
 
 SSH 터널링은 SSH(Secure Shell) 프로토콜을 사용하여 네트워크 연결을 암호화하여 보호하는 방법이다.  
 이를 통해 로컬 또는 원격 네트워크의 특정 포트를 다른 호스트의 포트로 안전하게 포워딩할 수 있다.  
@@ -101,12 +101,11 @@ Python 코드로 데이터베이스에 연결하여 필요한 데이터를 추�
 C 서버에서 SSH 터널링을 사용하여 A 서버를 통해 B 서버의 1433 포트에 접근 필요. 
 이를 위해 Python의 paramiko 라이브러리를 사용.
 
-먼저 paramiko와 sshtunnel 패키지를 설치.
-
+2. 먼저 paramiko와 sshtunnel 패키지를 설치.
 ```
 pip install paramiko sshtunnel
 ```
-2단계: Python 코드로 SSH 터널링 및 데이터베이스 연결
+3. Python 코드로 SSH 터널링 및 데이터베이스 연결
 Python 코드를 작성하여 C 서버에서 A 서버로 SSH 터널을 만들고, 그 터널을 통해 B 서버의 MSSQL 데이터베이스에 접근.
 
 ```
@@ -146,12 +145,16 @@ with SSHTunnelForwarder(
     cursor.close()
     conn.close()
 ```
-
-2. 코드 설명
-SSHTunnelForwarder: A 서버를 통해 B 서버로 SSH 터널을 생성.   
+## 코드 설명
+1. SSHTunnelForwarder 
+   * A 서버를 통해 B 서버로 SSH 터널을 생성.   
 이때, remote_bind_address는 B 서버의 MSSQL 포트를 의미하며, local_bind_address는 로컬에서 사용할 포트이다.  
-pyodbc를 사용한 MSSQL 데이터베이스 연결: 터널을 통해 로컬의 127.0.0.1:1433으로 접속하여 실제 B 서버의 데이터베이스에 접근한다.   
+
+1. pyodbc를 사용한 MSSQL 데이터베이스 연결
+   * 터널을 통해 로컬의 127.0.0.1:1433으로 접속하여 실제 B 서버의 데이터베이스에 접근한다.   
 최초 데이터를 요청하는 C 서버에 ODBC 드라이버가 설치되어 있어야 함.  
-쿼리 실행 및 데이터 가져오기: 데이터베이스에 연결하여 쿼리를 실행하고 데이터를 추출.  
-이 방법을 통해, C 서버에서 안전하게 A 서버를 통해 B 서버의 데이터베이스에 접근하여 데이터를 가져올 수 있다.  
+
+1. 쿼리 실행 및 데이터 가져오기
+   * 데이터베이스에 연결하여 쿼리를 실행하고 데이터를 추출.  
+이 방법을 통해 C 서버에서 안전하게 A 서버를 통해 B 서버의 데이터베이스에 접근하여 데이터를 가져올 수 있다.  
 
